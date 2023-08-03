@@ -25,3 +25,4 @@ describe('Create Post Spec', () => {
     cy.contains('span', 'Publish post, right now').click();
   });
 });
+

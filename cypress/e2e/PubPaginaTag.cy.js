@@ -52,7 +52,7 @@ describe('Prueba Completa Publicación de página', () => {
       cy.get('input[name="name"]').type('Lorem Ipsum', { force: true });
   
   
-      // cy.get('input[name="accent-color"]').type('ff0000') Hay más de un elemento para cambiar color. Esto no permite seleccionarlo. Alguna idea?
+      // cy.get('input[name="accent-color"]').type('ff0000')
   
       cy.get('textarea[name="description"]').type('Lorem ipsum dolor sit amet consectetur, adipiscing elit posuere cursus, porta sagittis lobortis condimentum. Suscipit suspendisse tempus rutrum himenaeos fames est netus dis fusce sociis, montes feugiat aptent auctor non leo iaculis vel curae, etiam luctus aliquam per pharetra proin nulla vitae ultricies. Aliquet risus cras tincidunt libero, tortor habitant.')
       cy.contains('Save').click()

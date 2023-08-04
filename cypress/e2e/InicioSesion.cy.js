@@ -1,6 +1,6 @@
 import LoginPage from '../support/pageObjects/loginPage';
 
-describe('template spec', () => {
+describe('Inicio de sesion using pageObjects', () => {
   it('passes', () => {
     cy.visit('http://localhost:2368/ghost/#/site');
 
